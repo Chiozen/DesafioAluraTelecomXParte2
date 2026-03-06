@@ -24,8 +24,6 @@ Se entrenaron y compararon dos enfoques distintos:
 * **Regresión Logística (Modelo Paramétrico):** Se alimentó con datos estandarizados. Resultó ser el modelo más robusto para este caso de negocio, logrando un excelente equilibrio, destacando en su capacidad para identificar correctamente a los clientes en riesgo (alto Recall).
 * **Random Forest (Modelo de Ensamblaje):** Se alimentó con datos sin estandarizar. Aunque mostró métricas iniciales fuertes, el análisis crítico reveló una tendencia al *Overfitting* al memorizar los patrones de entrenamiento (especialmente los datos sintéticos de SMOTE), reduciendo su capacidad de generalización en el set de prueba.
 
-*[Sube una imagen de tus Matrices de Confusión a GitHub y reemplaza este texto: ![Matrices de Confusión](ruta_de_imagen.png)]*
-
 ---
 
 ## 📊 Insights y Conclusiones de Negocio
